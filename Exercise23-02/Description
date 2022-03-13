@@ -1,0 +1,11 @@
+Write the following C function and generate the assembly code using gcc
+void swap(int *d1p, int *d2p) 
+{
+  int temp0 = *d1p;
+  int temp1 = *d2p;
+  *d1p = temp1;
+  *d2p = temp0;
+}
+Create a similar function swapl that uses long integers instead
+  What's the difference in the assembly code?
+Implement a function named abs_diff that calculates the absolute value of the difference of two inputs a and b (i.e., |a-b|), and get the assembly code output
