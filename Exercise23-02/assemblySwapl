@@ -1,4 +1,4 @@
-	.file	"long.c"
+.file	"long.c"
 	.text
 	.globl	swap
 	.type	swap, @function
