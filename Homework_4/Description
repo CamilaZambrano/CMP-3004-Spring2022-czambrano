@@ -1,25 +1,31 @@
 Homework 4
+
 Groups of 2
 Read the articles related to SSDs below
+
 You will need three hard drives:
 1 magnetic internal hard drive
 1 internal SSD
 1 external drive (SSD or magnetic)
+
 You will need to use Linux for this homework
 Write a report of your findings, using the knowledge from the class and articles to explain why the differences
+
 1. Articles
 Read the following articles (expect to have a couple of questions about them in your final)
 
 https://www.tomshardware.com/reviews/flash-ssd-nand,2741-6.html
 https://www.tomshardware.com/reviews/ssd-performance-power,2279.html
+
 2. Linux
 You are going to run experiments for reading and writing data to your drives
-
 To do so, you are going to need at least a VM that has linux installed
 If you are using Windows 10 or 11, you can enable Linux commands using WSL2
 In your experiments you'll be using the command dd
+
 Examples of how to use this command can be found in this tutorial
 https://www.thomas-krenn.com/en/wiki/Linux_I/O_Performance_Tests_using_dd
+
 3. Experiments
 dd allows us to write and read from the hardware without having to talk to the file system. This helps us to study the properties of the hardware in our system.
 From the tutorial above, it shows you how to use the command. Each command will tell you how much data was written (or read), the throughput and the total latency.
@@ -31,9 +37,9 @@ What are the differences in performance when we change the value of bs?
 Why we see differences in performance for different values of bs?
 Try your experiments with oflag=direct and without it.
 How do we explain the difference in performance of these two options?
+
 4. Report
 Write a report that contains the following:
-
 Specs of the hardware you used
 Version of Linux and dd used
 Commands used for your experiments
